@@ -1,0 +1,133 @@
+/* General Styles */
+
+.view-complaints{
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+
+}
+
+.view-complaints h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.view-complaints p {
+  text-align: center;
+ 
+  color: #2b2a2a;
+  margin-bottom: 30px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.complaint-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.complaint-item {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  max-width: 100%; /* Ensure the complaint item does not exceed the container width */
+  box-sizing: border-box;
+}
+
+.status-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.complaint-info,
+.complaint-actions {
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap; /* Ensure text wraps correctly */
+}
+
+.complaint-info h3 {
+  margin: 0 0 10px;
+}
+
+.complaint-actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.complaint-actions button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.complaint-actions button:hover {
+  background-color: #636669;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .complaint-item {
+    flex-direction: column;
+  }
+
+  .complaint-info,
+  .complaint-actions {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .complaint-actions button {
+    width: 100%;
+  }
+}

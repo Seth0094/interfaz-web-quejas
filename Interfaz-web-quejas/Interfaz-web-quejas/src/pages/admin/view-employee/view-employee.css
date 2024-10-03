@@ -1,0 +1,78 @@
+.view-employees {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .view-employees h1 {
+    color: #333;
+    text-align: center;
+  }
+  .view-employees p {
+    color: #333;
+    text-align: center;
+  }
+  
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .employee-list {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-list th, .employee-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-list th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .employee-list td {
+    color: #555;
+  }
+  
+  .employee-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .employee-item button {
+    background-color: #020202;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .employee-item button:hover {
+    background-color: #c9302c;
+  }
+  

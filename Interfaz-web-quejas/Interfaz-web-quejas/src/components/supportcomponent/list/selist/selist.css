@@ -1,0 +1,95 @@
+/* General Styles */
+.se-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.se-user {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.complaint-list {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #545658;
+}
+
+/* Text Styles for Paragraphs */
+.se-user p, .complaint-list p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap; /* Asegura que el texto largo se divida en líneas y no se desborde */
+  margin-bottom: 16px; /* Añadir margen inferior para separar párrafos */
+  line-height: 1.5; /* Mejorar la legibilidad */
+}
+
+/* Ensure content fits the screen */
+.se-user, .complaint-list {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.assigned-complaints {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .se-list {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .se-user {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .se-user {
+    padding: 10px;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+}

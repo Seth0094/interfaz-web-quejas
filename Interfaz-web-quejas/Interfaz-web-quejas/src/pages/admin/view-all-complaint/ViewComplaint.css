@@ -1,0 +1,115 @@
+.view-complaints {
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-complaints h1 {
+
+    text-align: center;
+   
+    margin-bottom: 20px;
+
+  }
+  .view-complaints h2 {
+
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+  }
+
+  .filters {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .filters button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #333;
+  }
+  
+  .complaint-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: left;
+  }
+  
+  .complaint-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border-left: 8px solid;
+    
+  }
+  
+  .status-indicator.open {
+    border-color: red;
+  }
+  
+  .status-indicator.closed {
+    border-color: green;
+  }
+  
+
+  
+  .complaint-info {
+    flex: 1;
+    margin-left: 1em;
+    
+  }
+
+  
+  .complaint-info h3 {
+    margin: 0 0 0.5em 0;
+    
+  }
+  
+  
+  .complaint-info p {
+    margin: 0.5em 0;
+    text-align: left;
+  }
+  
+  .complaint-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .complaint-actions button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .complaint-actions button:hover {
+    background-color: #333;
+  }
+  

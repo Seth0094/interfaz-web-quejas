@@ -1,0 +1,102 @@
+
+
+.profile-se-container {
+    
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-se-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+  }
+  .profile-container p {
+    text-align: center;
+    margin-bottom: 20px;
+   
+    color: #333;
+  }
+  
+  
+  .profile-se-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-se-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .profile-se-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .profile-se-container form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .profile-se-container form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .profile-se-container form button:hover {
+    background-color: #333;
+  }
+  
+  .profile-se-container form p {
+    color: rgb(68, 66, 66);
+    text-align: center;
+    margin-top: -10px;
+  }
+  
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .profile-se-container {
+      width: 100%;
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    input, button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-se-container {
+      padding: 10px;
+    }
+  
+    input, button {
+      font-size: 12px;
+      padding: 6px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+    
+  }

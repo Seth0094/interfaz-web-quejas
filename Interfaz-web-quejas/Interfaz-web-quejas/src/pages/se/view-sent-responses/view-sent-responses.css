@@ -1,0 +1,55 @@
+
+.sent-responses{
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+
+}
+
+
+
+
+
+.sent-responses {
+    padding: 20px;
+  }
+  
+  .sent-responses table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .sent-responses th,
+  .sent-responses td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .sent-responses th {
+    background-color: #f2f2f2;
+  }
+  
+  .sent-responses button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .sent-responses button:hover {
+    background-color: #5d5e5d;
+  }
+  

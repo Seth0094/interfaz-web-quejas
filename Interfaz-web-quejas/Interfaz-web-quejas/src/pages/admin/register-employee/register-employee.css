@@ -1,0 +1,262 @@
+
+.register-employee3 {
+  width: 90%;
+  max-width: 1400px;
+  margin: 50px auto;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+  }
+
+
+
+
+
+
+.register-employee {
+  width: 50%;
+  max-width: 400px;
+  margin: 50px auto;
+ 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  }
+
+  .register-employee2 {
+    width: 50%;
+    max-width: 400px;
+    margin: 50px auto;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    }
+  
+  .register-employee h2 {
+    text-align: center;
+   
+    margin-bottom: 20px;
+  }
+  
+  .register-employee p {
+    text-align: center;
+   
+    color: #302e2e;
+    margin-bottom: 30px;
+  }
+  
+  .register-employee form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .register-employee form input,
+  .register-employee form select,
+  .register-employee form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #979090;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(158, 5, 5, 0.1);
+  }
+  
+  .register-employee form input:focus,
+  .register-employee form select:focus,
+  .register-employee form button:focus {
+    border-color: #020202;
+    outline: none;
+  }
+  
+  .register-employee form button {
+    background-color: #040404;
+    color: rgb(243, 243, 243);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-employee form button:hover {
+    background-color: #575859;
+  }
+  
+  .register-employee .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-employee .form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #010101;
+  }
+  
+  .register-employee .form-group select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #676161;
+    border-radius: 4px;
+  }
+  
+  .register-employee .form-group select:focus {
+    border-color: #5d5f60;
+  }
+  
+  .register-employee .form-section {
+    margin-bottom: 40px;
+  }
+  
+  .register-employee .form-section h2 {
+  
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .register-employee .form-section p {
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .register-employee3 {
+      width: 90%;
+      max-width: 1400px;
+      margin: 50px auto;
+      display: flex;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+     
+      }
+    
+  }
+  
+  @media (max-width: 480px) {
+
+
+
+
+
+    .register-employee {
+      width: 50%;
+      max-width: 500px;
+      margin: 50px auto;
+     
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      }
+    
+      .register-employee2 {
+        width: 50%;
+        max-width: 400px;
+        margin: 50px auto;
+        
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        }
+      
+      .register-employee h2 {
+        text-align: center;
+       
+        margin-bottom: 20px;
+      }
+      
+      .register-employee p {
+        text-align: center;
+       
+        color: #302e2e;
+        margin-bottom: 30px;
+      }
+      
+      .register-employee form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .register-employee form input,
+      .register-employee form select,
+      .register-employee form button {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #979090;
+        border-radius: 4px;
+        box-shadow: inset 0 1px 2px rgba(158, 5, 5, 0.1);
+      }
+      
+      .register-employee form input:focus,
+      .register-employee form select:focus,
+      .register-employee form button:focus {
+        border-color: #020202;
+        outline: none;
+      }
+      
+      .register-employee form button {
+        background-color: #040404;
+        color: rgb(243, 243, 243);
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .register-employee form button:hover {
+        background-color: #575859;
+      }
+      
+      .register-employee .form-group {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .register-employee .form-group label {
+        margin-bottom: 5px;
+        font-size: 14px;
+        color: #010101;
+      }
+      
+      .register-employee .form-group select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #676161;
+        border-radius: 4px;
+      }
+      
+      .register-employee .form-group select:focus {
+        border-color: #5d5f60;
+      }
+      
+      .register-employee .form-section {
+        margin-bottom: 40px;
+      }
+      
+      .register-employee .form-section h2 {
+      
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .register-employee .form-section p {
+        text-align: center;
+        font-size: 16px;
+        color: #000000;
+      }
+      
+
+
+
+
+
+
+  }

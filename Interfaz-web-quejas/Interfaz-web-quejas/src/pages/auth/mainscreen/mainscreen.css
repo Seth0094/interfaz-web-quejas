@@ -1,0 +1,54 @@
+/* General Styles */
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-screen h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .main-screen button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .main-screen button:hover {
+    background-color: #0c0c0c;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .main-screen h1 {
+      font-size: 2em;
+    }
+  
+    .main-screen button {
+      padding: 12px 25px;
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-screen h1 {
+      font-size: 1.5em;
+    }
+  
+    .main-screen button {
+      padding: 10px 20px;
+      font-size: 0.9em;
+    }
+  }
+  
